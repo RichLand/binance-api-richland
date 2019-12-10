@@ -1,9 +1,6 @@
 {
   "name": "binance-api-richland",
-  "version": "0.9.12",
-  "description": "A node API wrapper for Binance",
-  "private": true,
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "version": "0.9.13",
   "main": "dist",
   "files": [
     "dist",
@@ -11,10 +8,7 @@
   ],
   "scripts": {
     "build": "babel src -d dist",
-    "prepare": "npm build",
-    "test": "ava --timeout=10s -v",
-    "cover": "nyc ava",
-    "lint": "eslint src"
+    "prepare": "npm build"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
@@ -39,16 +33,9 @@
     "nyc": "^14.1.1",
     "prettier": "^1.19.1"
   },
-  "ava": {
-    "require": [
-      "@babel/register",
-      "@babel/polyfill"
-    ],
-    "files": [
-      "test/**/*",
-      "!test/utils.js"
-    ]
-  },
   "author": "Balthazar Gronon <bgronon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

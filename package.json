@@ -1,6 +1,7 @@
 {
   "name": "binance-api-richland",
-  "version": "0.9.13",
+  "description": "api wrapper",
+  "version": "0.0.1",
   "main": "dist",
   "files": [
     "dist",
@@ -33,6 +34,7 @@
     "nyc": "^14.1.1",
     "prettier": "^1.19.1"
   },
+  "keywords": [],
   "author": "Balthazar Gronon <bgronon@gmail.com>",
   "license": "MIT",
   "publishConfig": {

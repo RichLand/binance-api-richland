@@ -1,7 +1,7 @@
 {
   "name": "@richland/binance-api-richland",
   "description": "api wrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist",
   "files": [
     "dist",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "babel src -d dist",
-    "prepare": "npm build"
+    "prepare": "npm run-script build"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",

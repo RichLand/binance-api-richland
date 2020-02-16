@@ -1,7 +1,7 @@
 {
   "name": "@richland/binance-api-richland",
   "description": "api wrapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist",
   "files": [
     "dist",

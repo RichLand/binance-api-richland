@@ -1,7 +1,7 @@
 {
   "name": "@richland/binance-api-richland",
   "description": "api wrapper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist",
   "files": [
     "dist",
@@ -37,8 +37,19 @@
   "keywords": [],
   "author": "Balthazar Gronon <bgronon@gmail.com>",
   "license": "MIT",
-  "repository": "git://github.com/RichLand/binance-api-richland.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RichLand/binance-api-richland.git"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/RichLand/binance-api-richland/issues"
+  },
+  "homepage": "https://github.com/RichLand/binance-api-richland#readme",
+  "directories": {
+    "test": "test"
   }
 }

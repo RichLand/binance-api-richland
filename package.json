@@ -37,6 +37,7 @@
   "keywords": [],
   "author": "Balthazar Gronon <bgronon@gmail.com>",
   "license": "MIT",
+  "repository": "git://github.com/RichLand/binance-api-richland.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }

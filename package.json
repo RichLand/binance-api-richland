@@ -42,7 +42,7 @@
     "url": "git://github.com/RichLand/binance-api-richland.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/RichLand",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "bugs": {
